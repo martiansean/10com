@@ -15,5 +15,8 @@
     "express-https-redirect": "^1.0.0",
     "mongoose": "^5.9.17",
     "socket.io": "^2.3.0"
+  },
+  "engines": {
+    "node": "10.14"
   }
 }
