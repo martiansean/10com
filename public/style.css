@@ -1,0 +1,49 @@
+.nav-wrapper {
+  background-color: #fff;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #eee;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #bbb;
+}
+nav {
+  box-shadow: none;
+}
+.container {
+  text-align: center;
+}
+#data {
+  height: 45vh;
+  overflow-y:scroll;
+  overflow-x: hidden;
+  width: auto;
+}
+.name {
+  color: #ff6f00;
+  font-size: 14px;
+}
+.msg {
+  color: #636363;
+  font-size: 20px;
+}
+.text-box {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
