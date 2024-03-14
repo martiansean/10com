@@ -20,7 +20,7 @@ const Message = mongoose.model('messages')
 app.use(express.static(path.join(__dirname, "public")));
 mongoose.Promise = global.Promise;
 // Connect to mongoose
-const MongoURI = 'mongodb+srv://sean:sean@learning-tdtzq.azure.mongodb.net/test?retryWrites=true&w=majority'
+const MongoURI = 'STRING'
 const conn = mongoose.connect(MongoURI,{ useNewUrlParser: true, useUnifiedTopology: true }, function(){
   console.log("mongo is running")
   app.get('/', (req,res) => {
